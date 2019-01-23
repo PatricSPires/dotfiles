@@ -32,3 +32,5 @@ code --install zignd.html-css-class-completion
 code --install ritwickdey.liveserver
 code --install shinnn.stylelint
 code --install calvinhong.stylelint-fix
+code --install eamodio.gitlens
+
