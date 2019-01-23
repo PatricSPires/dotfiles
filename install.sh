@@ -21,3 +21,14 @@ nvm --version
 
 # install git
 sudo apt-get install git
+
+# install vscode extensions
+code --install naumovs.color-highlight
+code --install dbaeumer.vscode-eslint
+code --install dbaeumer.jshint
+code --install guillaumedoutriaux.name-that-color
+code --install michelemelluso.code-beautifier
+code --install zignd.html-css-class-completion
+code --install ritwickdey.liveserver
+code --install shinnn.stylelint
+code --install calvinhong.stylelint-fix
