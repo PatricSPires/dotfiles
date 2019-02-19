@@ -53,3 +53,7 @@ nvm --version
 nvm install node
 
 sh vscode.sh
+
+
+# install zeal
+sudo apt-get install zeal
