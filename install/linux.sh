@@ -51,3 +51,5 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm --version
 nvm install node
+
+sh vscode.sh
