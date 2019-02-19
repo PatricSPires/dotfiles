@@ -52,7 +52,7 @@ export NVM_DIR="$HOME/.nvm"
 nvm --version
 nvm install node
 
-sh vscode.sh
+sh ./vscode.sh
 
 
 # install zeal
