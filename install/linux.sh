@@ -34,6 +34,7 @@ read -p "Key has been generated.\nPaste it on SSH Keys on BitBucket, GitLab or G
 # install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo apt-get install zsh
+chsh -s /bin/zsh
 cp .zshrc ~/.zshrc
 
 # install nvm
