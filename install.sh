@@ -19,21 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm --version
 
-# install git
-sudo apt-get install git
-
-# set git aliases
-git config --global alias.co checkout
-git config --global alias.ci commit
-git config --global alias.st status
-git config --global alias.br branch
-alias gs='git status '
-alias ga='git add '
-alias gb='git branch '
-alias gc='git commit'
-alias gd='git diff'
-alias go='git checkout '
-
 # install vs code
 sudo apt-get install code
 
