@@ -8,8 +8,6 @@ else
   sudo apt install snapd
 fi
 
-# GIT 
-
 # install git
 sudo apt-get install git
 echo "Git instaled \n"
@@ -41,12 +39,6 @@ ssh-add ~/.ssh/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
 read -p "Key has been generated.\nPaste it on SSH Keys on BitBucket, GitLab or Github.\n\nThen push any button to continue..."
 
-# install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sudo apt-get install zsh
-chsh -s /bin/zsh
-cp .zshrc ~/.zshrc
-
 # install nvm
 sh -c "$(curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash)"
 
@@ -64,6 +56,11 @@ nvm install node
 
 sh ./vscode.sh
 
-
 # install zeal
 sudo apt-get install zeal
+
+# install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo apt-get install zsh
+chsh -s /bin/zsh
+cp .zshrc ~/.zshrc
