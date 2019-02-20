@@ -4,4 +4,4 @@ clear
 echo "Initializing...\n"
 echo "Hello, $(whoami)!\n Long time we don't talk\n"
 
-sh $HOME/workspace/.dotfiles/install/linux.sh
+sh ./install/linux.sh
