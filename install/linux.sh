@@ -8,6 +8,10 @@ else
   sudo apt install snapd
 fi
 
+# install FZF
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
 # install git
 sudo apt-get install git
 echo "Git instaled \n"
