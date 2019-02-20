@@ -19,3 +19,4 @@ code --install-extension pkief.material-icon-theme
 code --install-extension oderwat.indent-rainbow
 code --install-extension hwencc.html-tag-wrapper
 code --install-extension deerawan.vscode-dash
+code --install-extension coenraads.bracket-pair-colorizer
