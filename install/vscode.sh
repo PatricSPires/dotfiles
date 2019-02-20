@@ -1,5 +1,5 @@
-# install vs code
-sudo apt-get install code
+# install vscode aplication
+sudo snap install vscode --classic
 
 # install vscode extensions
 code --install-extension naumovs.color-highlight
