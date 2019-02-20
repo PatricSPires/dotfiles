@@ -1,3 +1,13 @@
+# install snap
+echo "Verify snap instalatio"
+if  ($which snap); then
+  echo "O Snap está instalado!"
+else
+  echo "Oh não, você não tem o Sanp... Vamos instalar!"
+  sudo apt update
+  sudo apt install snapd
+fi
+
 # GIT 
 
 # install git
