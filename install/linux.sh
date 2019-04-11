@@ -16,18 +16,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 sudo apt-get install git
 echo "Git instaled \n"
 
-# set git aliases
-git config --global alias.co checkout
-git config --global alias.ci commit
-git config --global alias.st status
-git config --global alias.br branch
-alias gs='git status '
-alias ga='git add '
-alias gb='git branch '
-alias gc='git commit'
-alias gd='git diff'
-alias go='git checkout '
-echo "Aliases defined \n"
 
 echo "\nWhat is your name to be displayed at your GIT user.name?\n\nFor Example, mine is: \"Devinho\"\n"
  read git_config_user_name
