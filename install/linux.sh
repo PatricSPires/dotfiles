@@ -47,6 +47,7 @@ nvm --version
 nvm install node
 
 sh ./vscode.sh
+sh ./fonts.sh
 
 # install zeal
 sudo apt-get install zeal
