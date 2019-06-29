@@ -43,13 +43,11 @@ export NVM_DIR="$HOME/.nvm" && (
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-nvm --version
-nvm install node
-
-sh ./vscode.sh
-sh ./fonts.sh
-
 # install zeal
 sudo apt-get install zeal
 
-sh ./zsh.sh
+nvm --version
+nvm install node
+
+sh install/fonts.sh
+sh install/zsh.sh
