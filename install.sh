@@ -59,24 +59,30 @@ sudo apt-get install code -y
 clear
 
 echo 'installing vscode extensions'
-code --install-extension naumovs.color-highlight
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension guillaumedoutriaux.name-that-color
-code --install-extension michelemelluso.code-beautifier
-code --install-extension zignd.html-css-class-completion
-code --install-extension ritwickdey.liveserver
-code --install-extension shinnn.stylelint
-code --install-extension eamodio.gitlens
-code --install-extension pnp.polacode
 code --install-extension 2gua.rainbow-brackets
-code --install-extension robertohuertasm.vscode-icons
-code --install-extension ionutvmi.path-autocomplete
-code --install-extension equinusocio.vsc-material-theme
-code --install-extension pkief.material-icon-theme
-code --install-extension oderwat.indent-rainbow
-code --install-extension hwencc.html-tag-wrapper
+code --install-extension christian-kohler.path-intellisense
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension dbaeumer.vscode-eslint
 code --install-extension deerawan.vscode-dash
-code --install-extension coenraads.bracket-pair-colorizer
+code --install-extension dracula-theme.theme-dracula
+code --install-extension eamodio.gitlens
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension esbenp.prettier-vscode
+code --install-extension foxundermoon.shell-format
+code --install-extension guillaumedoutriaux.name-that-color
+code --install-extension hwencc.html-tag-wrapper
+code --install-extension ionutvmi.path-autocomplete
+code --install-extension michelemelluso.code-beautifier
+code --install-extension naumovs.color-highlight
+code --install-extension oderwat.indent-rainbow
+code --install-extension PKief.material-icon-theme
+code --install-extension pmneo.tsimporter
+code --install-extension pnp.polacode
+code --install-extension ritwickdey.LiveServer
+code --install-extension shinnn.stylelint
+code --install-extension waderyan.gitblame
+code --install-extension yzhang.markdown-all-in-one
+code --install-extension Zignd.html-css-class-completion
 clear
 
 echo 'installing spotify' 
